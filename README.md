@@ -8,14 +8,14 @@ As well as the original code (because I want somewhere to maintain the source hi
 ## Recommendation for importing actions in StreamerBot
 When setting up events in streamerbot, never link imported actions directly to events in settings, as you will normally end up wanting to perform multiple actions in response to an event trigger. Instead create a series of empty actions and link link these in the various settings.
 
-On First Words
-On Chat Message
-On New Raid
-On New Host
-On New Follower
-On New Sub
-On Cheer
-etc
+- On First Words
+- On Chat Message
+- On New Raid
+- On New Host
+- On New Follower
+- On New Sub
+- On Cheer
+- etc
 
 You can then trigger actions as sub-actions in these, and add to them as you need.
 
