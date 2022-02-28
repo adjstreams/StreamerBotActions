@@ -5,6 +5,9 @@ You can get the fantastic StreamerBot from https://streamer.bot/
 
 As well as the original code (because I want somewhere to maintain the source history) I've also included the import string so you can pull them into StreamerBot easily.
 
+## Example Actions
+- [EntranceSounds](Entrance Sounds)
+
 ## Recommendation for importing actions in StreamerBot
 When setting up events in streamerbot, never link imported actions directly to events in settings, as you will normally end up wanting to perform multiple actions in response to an event trigger. Instead create a series of empty actions and link link these in the various settings.
 
