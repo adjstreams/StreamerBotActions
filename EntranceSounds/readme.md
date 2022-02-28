@@ -6,7 +6,7 @@ Automatically play any mp3 named after a twitch user e.g. for use in conjunction
 
 1. Create a folder to store your entrance mp3s in, by default this is C:\TwitchEntranceSounds\, but can be changed.
 2. Import the import string below
-3. Set "Settings" > "Events" > "General" > "First Words" to this action (but see [https://github.com/adjstreams/StreamerBotActions#recommendation-for-importing-actions-in-streamerbot](recommendations) for a better approach)
+3. Set "Settings" > "Events" > "General" > "First Words" to this action (but see [recommendations](../#recommendation-for-importing-actions-in-streamerbot) for a better approach)
 
 ## Import string
 
