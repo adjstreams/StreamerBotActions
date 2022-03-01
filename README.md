@@ -7,6 +7,7 @@ As well as the original code (because I want somewhere to maintain the source hi
 
 ## Example Actions
 - [Entrance Sounds](EntranceSounds)
+- [Post Raid Message to Discord](PostRaidMessageToDiscord)
 
 ## Recommendation for importing actions in StreamerBot
 When setting up events in streamerbot, never link imported actions directly to events in settings, as you will normally end up wanting to perform multiple actions in response to an event trigger. Instead create a series of empty actions and link link these in the various settings.
