@@ -17,7 +17,7 @@ public class CPHInline
         string userGame = args["game"].ToString();
 		    string streamerName = String.IsNullOrWhiteSpace(args["streamerName"].ToString()) ? args["broadcastUser"].ToString() : args["streamerName"].ToString();
 
-		    string defaultMessageContents = $"Default message: {streamerName} just got raided by {displayName}, which was very kind of them! They were streaming {userGame}. Lets return the kindness by heading over to https://twitch.tv/{userName} and giving them a follow!";
+		    string defaultMessageContents = $"{streamerName} just got raided by {displayName}, which was very kind of them! They were streaming {userGame}. Lets return the kindness by heading over to https://twitch.tv/{userName} and giving them a follow!";
 		    string messageContents = String.IsNullOrWhiteSpace(args["message"].ToString()) ? defaultMessageContents : ReplaceTokens(args["message"].ToString(), streamerName, displayName, userGame, userName);
 
         var message = new DiscordMessage(messageContents);
