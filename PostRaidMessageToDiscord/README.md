@@ -6,7 +6,9 @@ Post a message to your discord server whenever you get raided.
 
 1. Use the import string below
 2. Set the required discord webhooks field - https://help.dashe.io/en/articles/2521940-how-to-create-a-discord-webhook-url
-3. 
+3. Adjust any OPTIONAL variables, e.g. the message to post, how you should be referred to, etc. (e.g. ADJ, I) or leave blank to use your twitch display name.
+4. set your Settings > Events > Raid > Generic Action dropdown value to this action. (Or preferably, follow my [recommendations](../README.md) here. 
+
 
 ## Import string
 
