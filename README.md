@@ -28,4 +28,6 @@ For example, for entrance sounds, you might:
 1. Create a general action called "On First Words" and link this action to the First Words event via "Settings" > "Events" > "General" > "First Words"
 2. Add the "Entrance Sounds" imported action and any others that you wish as a sub-action in this "On First Words" action.
 
+## If you'd like to buy me a coffee:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q0CFR70)
